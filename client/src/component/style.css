@@ -1,0 +1,86 @@
+
+.navbar{
+    -webkit-box-shadow: 5px 0px 18px -4px rgba(0,0,0,0.81);
+    -moz-box-shadow: 5px 0px 18px -4px rgba(0,0,0,0.81);
+    box-shadow: 5px 0px 18px -4px rgba(0,0,0,0.81);
+    background-color: #e5e5e5;
+    position: fixed;
+    height: 60px;
+}
+.sidebar{
+    margin-left: -2px;
+    border-right: 1px solid black;
+    background-color: #e5e5e5;
+    min-height: 100vh;
+
+}
+.brand-name{
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    color: #808080;
+}
+.list-group a:hover{
+    background-color: #e9e9e8;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.link{
+    background-color: #e5e5e5;
+}
+.SideBrand{
+    align-content: center;
+    
+}
+
+
+.label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    
+    }
+    .btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+
+
